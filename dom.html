@@ -1,0 +1,150 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="name" id="inp"> <button onclick="show()">submit</button>
+    <p id="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consectetur ut, officiis architecto distinctio laboriosam nostrum sint labore cum vero. Explicabo, itaque at! Temporibus, ab doloremque consectetur at amet quae.
+    </p>
+   
+    <p class="one">two</p>
+    <p class="one">one</p>
+    <p class="one">three</p>
+    <p class="one">four</p>
+    <p class="two">second class</p>
+
+    <h1 class="one">head</h1>
+    <h1 class="one">head</h1>
+    <h1 class="one">head</h1>
+
+
+    <script>
+
+const inp =document.getElementById('inp')
+
+
+const id = document.getElementById('one')
+     
+function show(){
+    const input =inp.value
+    console.log("name", input)
+
+    id.innerHTML = input   
+
+}
+
+
+        const id = document.getElementById('one')
+        console.log(id.innerText)
+
+console.log(id.innerHTML)
+const cls = document.getElementsByClassName('one')
+console.log(cls[1].innerHTML)
+const tag = document.getElementsByTagName('h1')
+console.log(tag[0].innerHTML)
+
+
+const qs = document.querySelector('.one')
+console.log(qs)
+ const rsa = document.querySelectorAll('p')
+        console.log(rsa)
+
+
+        
+    </script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="it" placeholder="id">
+    <button onclick="action()">action</button>
+    <input type="text" name="" class="cls" placeholder="class">
+    <button onclick="clc()">click</button>
+    <input type="text" name="" id="ele" placeholder="element">
+    <button onclick="submit()">submit</button>
+
+
+<p id="itm" > varun</p>
+<p id="itm1" > varun</p>
+<p id="itm2" > varun</p>
+<p id="itm3" > varun</p>
+
+<p class="clsm"> vishnu</p>
+<p class="clsm"> vishnu</p>
+<p class="clsm"> vishnu</p>
+<p class="clsm"> vishnu</p>
+<button onclick="ch()">change color</button>
+<div id="st">
+<h1>Welcome to the world of mark Antony</h1>
+<h1>Welcome to the world of mark Antony</h1>
+<h1>Welcome to the world of mark Antony</h1>
+
+</div>
+
+    <script>
+        function ch(){
+            const r = document.getElementById('st')
+           if(r.style.display === 'block'){
+            r.style.display = 'none'
+
+           }
+           else{
+            r.style.display = 'block'
+           }
+        }
+        
+       
+        function action(){
+            const it=document.getElementById('it').value
+            const itm=document.getElementById('itm')
+
+            itm.innerHTML=it
+            itm.innerHTML=it
+            itm.innerHTML=it
+            itm.innerHTML=it
+            
+        }
+        function clc(){
+            const cls=document.getElementsByClassName('cls')
+            const input = cls[0].value
+            // console.log(input);
+            
+            const clsm =document.getElementsByClassName('clsm')
+            // console.log(clsm);  
+
+            clsm[0].innerHTML=input
+            clsm[1].innerHTML=input
+            clsm[2].innerHTML=input
+            clsm[3].innerHTML=input
+            
+            
+            
+        }
+        function submit(){
+            const ele= document.getElementsByTagName('input')
+            const input =ele[2].value
+            const st =document.getElementsByTagName('h1')
+
+            st[0].innerHTML=input
+            st[1].innerHTML=input
+            st[2].innerHTML=input
+            st[3].innerHTML=input
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap.css">
+    <!-- <script src="bootstrap.js"> </script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      
+    <!-- offcanvas options -->
+
+    <!-- Second Navbar -->
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid">
+           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><svg
+      xmlns="http://www.w3.org/2000/svg" height="24px"
+      viewBox="0 -960 960 960" width="24px"
+      style="color: whitesmoke;"><path
+        d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm240 0q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm240 0q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160ZM240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400ZM240-640q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640Z" /></svg></button>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-around  w-100">
+            <li class="nav-item dropdown" id>
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                GROCERIES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <p>Breakfast & Spreads <br>
+                      Oats & bars <br>
+                      Jams & Spreads <br>
+                      Cheese Spreads <br>
+                      Cold Beverages <br>
+                      Soft Drinks <br>
+                      Water <br>
+                      Juice <br>
+                      Hot Beverages <br>
+                      Tea <br>
+                      Coffee <br>
+                      Chocolate & Malted Drinks <br>
+                      Longlife Milk <br>
+                      Powdered Milk <br>
+                      Frozen Food <br>
+                      Ice cream & Pastry <br>
+                      Frozen Dairy <br>
+                      Ready Meals & Snacks <br>
+                      Burgers <br>
+                      Meat & Poultry <br>
+                      Fish & Seafood <br>
+                      Fruits & Vegetables</p> </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**Groceries**</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                FRESH FOOD </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">
+                    <p>
+                      Fresh Dairy <br>
+                      Butter & Margarine <br>
+                      Cheese <br>
+                      Eggs <br>
+                      Bakery <br>
+                      Cakes <br>
+                      Bread & Wraps <br>
+                      Croissants <br>
+                      Sweets <br>
+                      Hot Food <br>
+                      Fruits & Vegetables <br>
+                      Fruits <br>
+                      Vegetables <br>
+                      Fresh Flowers <br>
+                      Exotic Vegetables <br>
+                      Organic Vegetables <br>
+                    </p>
+                   
+                  </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**FRESH FOOD**</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                ELECTRONICS</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><p>Camera Store
+                      SLR Cameras <br>
+                      Digital Cameras <br>
+                      Action Cameras <br>
+                      Audio <br>
+                      Soundbars & Home Theatres <br>
+                      Headphones <br>
+                      Musical Instruments <br>
+                      Computer Devices <br>
+                      Laptops <br>
+                      Gaming Laptops <br>
+                      Softwares</p></a></li>
+           
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**ELECTRONICS**</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                LIFESTYLE </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><p>Fashion Accessories
+                      Hair Brush <br>
+                      Foot Wear <br>
+                      Sandals <br>
+                      Sports shoes <br>
+                      Casual Shoes <br>
+                      Slippers <br>
+                      Bags & Wallets <br>
+                      Hand Bags</p></a></li>
+                
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**LIFESTYLE**</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                HOME & LIVING</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><p>Flasks <br>
+                      Knives <br>
+                      Mops & Cleaning Accessories <br>
+                      Glasswares & Jugs <br>
+                      Laundry Accessories <br>
+                      Other Accessories <br>
+                      Luggage <br>
+                      Soft Trolleys <br>
+                      Hard Trolleys <br>
+                      Duffle Bags <br>
+                      Backpack <br>
+                      Travel Accessories <br>
+                      Baby Accessories <br>
+                      Toys <br>
+                      Other Baby Accessories</p></a></li>
+             
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**HOME & LIVING**</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Second Navbar -->
+        
+
+            <!-- <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupport" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <li class="nav-item dropdown" id>
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Groceries
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <p>Breakfast & Spreads <br>
+                      Oats & bars <br>
+                      Jams & Spreads <br>
+                      Cheese Spreads <br>
+                      Cold Beverages <br>
+                      Soft Drinks <br>
+                      Water <br>
+                      Juice <br>
+                      Hot Beverages <br>
+                      Tea <br>
+                      Coffee <br>
+                      Chocolate & Malted Drinks <br>
+                      Longlife Milk <br>
+                      Powdered Milk <br>
+                      Frozen Food <br>
+                      Ice cream & Pastry <br>
+                      Frozen Dairy <br>
+                      Ready Meals & Snacks <br>
+                      Burgers <br>
+                      Meat & Poultry <br>
+                      Fish & Seafood <br>
+                      Fruits & Vegetables</p> </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**Groceries**</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                FRESH FOOD </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">
+                    <p>
+                      Fresh Dairy <br>
+                      Butter & Margarine <br>
+                      Cheese <br>
+                      Eggs <br>
+                      Bakery <br>
+                      Cakes <br>
+                      Bread & Wraps <br>
+                      Croissants <br>
+                      Sweets <br>
+                      Hot Food <br>
+                      Fruits & Vegetables <br>
+                      Fruits <br>
+                      Vegetables <br>
+                      Fresh Flowers <br>
+                      Exotic Vegetables <br>
+                      Organic Vegetables <br>
+                    </p>
+                   
+                  </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**FRESH FOOD**</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                ELECTRONICS</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><p>Camera Store
+                      SLR Cameras <br>
+                      Digital Cameras <br>
+                      Action Cameras <br>
+                      Audio <br>
+                      Soundbars & Home Theatres <br>
+                      Headphones <br>
+                      Musical Instruments <br>
+                      Computer Devices <br>
+                      Laptops <br>
+                      Gaming Laptops <br>
+                      Softwares</p></a></li>
+           
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**ELECTRONICS**</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                LIFESTYLE </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><p>Fashion Accessories
+                      Hair Brush <br>
+                      Foot Wear <br>
+                      Sandals <br>
+                      Sports shoes <br>
+                      Casual Shoes <br>
+                      Slippers <br>
+                      Bags & Wallets <br>
+                      Hand Bags</p></a></li>
+                
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**LIFESTYLE**</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                HOME & LIVING</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><p>Flasks <br>
+                      Knives <br>
+                      Mops & Cleaning Accessories <br>
+                      Glasswares & Jugs <br>
+                      Laundry Accessories <br>
+                      Other Accessories <br>
+                      Luggage <br>
+                      Soft Trolleys <br>
+                      Hard Trolleys <br>
+                      Duffle Bags <br>
+                      Backpack <br>
+                      Travel Accessories <br>
+                      Baby Accessories <br>
+                      Toys <br>
+                      Other Baby Accessories</p></a></li>
+             
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">**HOME & LIVING**</a></li>
+              </ul>
+            </li>
+
+            <li> <svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path
+                  d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" /></svg>&nbsp;LOCATION</li>
+          </ul> -->
+          <div class="container-fluid ">
+            <div class="row">
+              <div class="col p-3">
+                <img
+                  src="https://www.luluhypermarket.in/medias/tile-icons-01.png?context=bWFzdGVyfGltYWdlc3wzODI4N3xpbWFnZS9wbmd8YURnNUwyZ3hOQzg1TmpJMU1qVTBOVFU1TnpjMEwzUnBiR1VnYVdOdmJuTXRNREV1Y0c1bnxkNzU1OTdiOTg1YjhjMTI1NzE5MmRmNDVmNGUxMGJhZDM5NWNhNDI2ZDQ3NjdjY2RlZWRhMTNhYjI3NWM1NGRj"
+                  alt>
+                <p style="padding: 5px; border-radius: 50%;"> &nbsp; &nbsp;
+                  &nbsp; &nbsp;Top Trending</p>
+              </div>
+              <div class="col p-3">
+                <img
+                  src="https://www.luluhypermarket.in/medias/tile-icons-01.jpg?context=bWFzdGVyfGltYWdlc3w2MTI4N3xpbWFnZS9qcGVnfGFEVTBMMmhrTnk4NU5EazNOVEkwT0RrMU56YzBMM1JwYkdVZ2FXTnZibk10TURFdWFuQm58NDc2YzgwYzdmYTQ0MTI5MDA4MmFmYzY1YjNjNDVmOTE0ZmI2Y2IwMWViYjgyZWVjYjZmMTU0ZjA5N2Q5OWIxMA"
+                  alt>
+                <p style="padding: 5px; border-radius: 50%;"> &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp;Pet Food</p>
+              </div>
+              <div class="col p-3">
+                <img
+                  src="https://www.luluhypermarket.in/medias/new-layout-app.jpg?context=bWFzdGVyfGltYWdlc3w4OTgxfGltYWdlL2pwZWd8YURWbUwyaGpOaTg1TmpBd01qVXlOVGMxTnpjMEwyNWxkeTFzWVhsdmRYUXRZWEJ3TG1wd1p3fDhkM2I1YmE2M2Q5OGE2YTdkY2RlZGZmN2I2NmRiN2MzMWFlOTczZTg0MzJlMmZkMTQyZWYyMDk5OGIyMzUxY2U"
+                  alt>
+                <p style="padding: 5px;">Cooking Ingredients</p>
+              </div>
+              <div class="col p-3">
+                <img
+                  src="https://www.luluhypermarket.in/medias/tile-icons-05.jpg?context=bWFzdGVyfGltYWdlc3w2MzM2MXxpbWFnZS9qcGVnfGFETXhMMmhrTnk4NU5EazNOVEkxTVRVM09URTRMM1JwYkdVZ2FXTnZibk10TURVdWFuQm58MGQ5MWY2YmU5ZjUzMWQwYzgwYTAwNjBkZjNmNzc4ZDFkN2Q0MGRjN2FmN2UyMTNkMjI3ODY1Yjg1N2VjOTEzZQ"
+                  alt>
+                <p style="padding: 5px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Baby
+                  Food</p>
+              </div>
+              <div class="col p-3">
+                <img
+                  src="https://www.luluhypermarket.in/medias/Grocery-Layout-12.jpg?context=bWFzdGVyfGltYWdlc3wyNjI2MHxpbWFnZS9qcGVnfGFEVXpMMmcyTlM4NU5ETTRNVGd6T1RRNE16RTRMMGR5YjJObGNua2dUR0Y1YjNWMExURXlMbXB3Wnd8MDk1ZDlmYjVmZTgyM2Y0NzJmODdjMzhmNmU2YWZmYTFlYzdhNDA4MmEwNGJjMjljNjczYzdiM2UxODA4OTcwMg"
+                  alt>
+                <p style="padding: 5px;"> &nbsp; &nbsp; &nbsp; &nbsp; Home
+                  Care</p>
+              </div>
+              <div class="col p-3">
+                <img
+                  src="https://www.luluhypermarket.in/medias/Grocery-Layout-13.jpg?context=bWFzdGVyfGltYWdlc3wxOTg3MHxpbWFnZS9qcGVnfGFHVTRMMmd4T1M4NU5ETTRNVGcwTURjNU16a3dMMGR5YjJObGNua2dUR0Y1YjNWMExURXpMbXB3Wnd8YzY2YTc2YzUzY2EyNjdlNWZmYzQ5NDE2NDQyNWU5ZjFlMjVmMDg5ZWNiYjhhNjc5YTNmZTExMmY1MTk2M2EwNw"
+                  alt>
+                <p style="padding: 5px;"> &nbsp; &nbsp; &nbsp; Personal Care</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div id="carouselExampleAutoplaying" class="carousel slide"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+              <img
+                src=" https://groca.myshopify.com/cdn/shop/files/bg-1.jpg?v=1614918144"
+                class="d-block w-100" alt="..." style="height: 400px;">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.luluhypermarket.in/medias/fresh-food-01.jpg?context=bWFzdGVyfHJvb3R8NDI5MzAzfGltYWdlL2pwZWd8YURZMEwyZ3hNaTg1TmpNeU9UZzVNamd5TXpNMEwyWnlaWE5vSUdadmIyUXRMVEF4TG1wd1p3fDViMmRmY2M0NzU1MmQ1NDRjZmQ1M2E0YjM1ZWRjMmI0ODFkODExYzc1MDVmYmRhN2FmZTM3NjAyMDExYmVhYjE"
+                class="d-block w-100" alt="..." style="height: 400px;">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.luluhypermarket.in/medias/nuts-01.jpg?context=bWFzdGVyfHJvb3R8MzY5NzUyfGltYWdlL2pwZWd8YURnMkwyZ3hZUzg1TlRNM09UQTNNelU1TnpjMEwyNTFkSE10TURFdWFuQm58ODIzY2YxMTdmMWUxNzgzMjY2OWVmMDJmZjgwZGNhMjRjZGIxZTRkNTI0ZmZlYWQyZDliNmVhNGJkNjk5MDNlYQ"
+                class="d-block w-100" alt="..." style="height: 400px;">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.luluhypermarket.in/medias/DISH-WASH-BANNER-01.jpg?context=bWFzdGVyfHJvb3R8MjgyNDg1fGltYWdlL2pwZWd8YURCbEwyZzNZeTg1TmpNeU9UZzRNams1TWprMEwwUkpVMGdnVjBGVFNDQkNRVTVPUlZJdE1ERXVhbkJufGE5MTkzOGRhODNhZjIyY2U0ODExMDQwOTU1Nzk2Yzg1M2M2NGUwYTU5MDU3YjM4Nzg4ZjVjN2I2ZTY5OTVhNWM"
+                class="d-block w-100" alt="..." style="height: 400px;">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="container">
+          <div class="row justify-content-around mt-5">
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-21-100.jpg?context=bWFzdGVyfHJvb3R8ODAyNDF8aW1hZ2UvanBlZ3xhR1F6TDJnNE9DODVORE00TXpFMk9ESXlOVFU0TDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTWpFdE1UQXdMbXB3Wnd8YWUwYWVlMjFhYWE1MmExYzJjZmFjYTFjYTBiOTc3MmY1OGNkN2E2ODFkY2VkMDk1NTAxNTc3YmVjYjc5YTcxZQ"
+                alt>
+            </div>
+            <div class="col-6 card"><img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-20-100.jpg?context=bWFzdGVyfHJvb3R8ODQ3MDZ8aW1hZ2UvanBlZ3xhREkxTDJnNE9DODVORE00TXpFMk9EZzRNRGswTDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTWpBdE1UQXdMbXB3Wnd8ZWNmZDA0NWQwMzdlZjVlZDU3N2YxZjJjYjQyMTJhOGQwODg2Y2I4M2UwZjY5MzJhYzA0MGFiZjRkYzQ1NmQ4Yg"
+                alt></div>
+            <div class="col-6 mt-5 card"> <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-66-100.jpg?context=bWFzdGVyfHJvb3R8NzkyNzd8aW1hZ2UvanBlZ3xhRFpoTDJnellTODVORE00TXpFM01ERTVNVFkyTDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTmpZdE1UQXdMbXB3Wnd8MjRiYzIwNWQyMzBmYmY1OGNhYzQyZTVmMmE2MDY5ZGQzOGNhN2UwYWU3ZGQ5NmQyMGI5NWM0ZWU5MWE3ZTk4Mw"
+                alt></div>
+            <div class="col-6 mt-5 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-22-100.jpg?context=bWFzdGVyfHJvb3R8NzAxNTN8aW1hZ2UvanBlZ3xhRGs0TDJnek5pODVORE00TXpFM01UVXdNak00TDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTWpJdE1UQXdMbXB3Wnd8NjQ1ZTA1MzMwYmE3Zjg4MDk0YTIwYWVmZmRhOTg0MzlkYTdhYjU1YTdmZjBhYmViMWFjNjI0YTI2ZTJiNTQ3OQ"
+                alt>
+            </div>
+
+          </div>
+          <br> <br>
+        </div>
+        <div class="container-fluid p-5"
+          style="background-color:rgba(80, 80, 80, 0.158)">
+          <b style="font-size: larger;">Oil & Ghee</b> <br><br>
+          <b style="font-size: larger;">Dal & Pulses</b>
+        </div>
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-23-100.jpg?context=bWFzdGVyfHJvb3R8MTAyODA1fGltYWdlL2pwZWd8YURsaEwyZ3pNeTg1TkRNNE16RTNNakUxTnpjMEwwRnlkR0p2WVhKa0lESXlJR052Y0hrZ01qTXRNVEF3TG1wd1p3fDc1OTk0ZmFkNDM4NGFlMWY0MmZlOTk1YTRiMmY5MGU0MzVmYmUyNTM4MmIwNzJiM2E2Y2EwN2MwNjA0YTAxMGE"
+                alt>
+            </div>
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-67-100.jpg?context=bWFzdGVyfHJvb3R8Nzg5MDN8aW1hZ2UvanBlZ3xhR1JpTDJneVppODVORE00TXpFM016UTJPRFEyTDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTmpjdE1UQXdMbXB3Wnd8YzYxMGQ4ZTNiMmMxZGQ3MzRkMDkyOGRlMWRjYjc1OWNhMTc3OWJkOTgyMDRlNmMwZmEwOWUwYTA1NTJmMzQ5OQ"
+                alt>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid p-5 mt-4"
+          style="background-color:rgba(80, 80, 80, 0.158);">
+          <b style="font-size: larger;">Baby Food</b>
+        </div>
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-28-100.jpg?context=bWFzdGVyfHJvb3R8OTQyMTZ8aW1hZ2UvanBlZ3xhREZqTDJneVl5ODVORE00TXpFM05EYzNPVEU0TDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTWpndE1UQXdMbXB3Wnd8MmI1MWRmZmM2ZTg1NGNjMmU4OTFkYjJmZmQwNDRiZGQ2Nzk2YTFiMmE1NzAwNTRhYWZjMWY4Yzc5YWJjZjgzMg"
+                alt>
+            </div>
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-29-100.jpg?context=bWFzdGVyfHJvb3R8ODU0NTd8aW1hZ2UvanBlZ3xhRFJpTDJneU5TODVORE00TXpFM05qYzBOVEkyTDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTWprdE1UQXdMbXB3Wnd8ZTkwMjI2MzFkNTQwOGU0MTc4MzU0ZDY3ZGMwYTI3M2Q2OGQ4NTVjMTgyODY2OGVlMTliOTk0OTUwOGRlODIzNw"
+                alt>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid p-5 mt-4"
+          style="background-color: rgba(80, 80, 80, 0.158);">
+          <b style="font-size: larger;">Breakfast & Spreads</b>
+          <b style="font-size: larger;">Chocolates</b>
+        </div>
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-72-100.jpg?context=bWFzdGVyfHJvb3R8ODUxNjd8aW1hZ2UvanBlZ3xhRE5oTDJneU1pODVORE00TXpFM056UXdNRFl5TDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTnpJdE1UQXdMbXB3Wnd8OGQ5NWU2MGI0NDZjZWQ2MDE2NTVjYTk2NDQxM2ZiODcwYmU1NzAyMmU4NDQ0NTJjOGJjN2FkNWEyYjY3NTQ4NA"
+                alt>
+            </div>
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-30-100.jpg?context=bWFzdGVyfHJvb3R8Nzc4Mzl8aW1hZ2UvanBlZ3xhRE5qTDJneFppODVORE00TXpFM09EQTFOVGs0TDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTXpBdE1UQXdMbXB3Wnd8MjQxNWIzZjRlY2FhYWJkMjI3M2VjYTI2N2NiZTIyZGY4ZjYxOGU2NDhkYzA5YjdkNGQ2ZThjOWFiNTcyNTJmZA"
+                alt>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid p-5 mt-4"
+          style="background-color: rgba(80, 80, 80, 0.158);">
+          <b style="font-size: larger;">Dry Fruits and Nuts </b>
+          <b style="font-size: larger;">Juice</b>
+        </div>
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-31-100.jpg?context=bWFzdGVyfHJvb3R8NTYyNDZ8aW1hZ2UvanBlZ3xhR1JoTDJnNVl5ODVORE00TXpFMk1qWTFOVEF5TDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTXpFdE1UQXdMbXB3Wnd8YTQ1ODM2NjAwYjVmYTc0YmRlMGQ5OTlkNjZlYjA4MTUxYTgzODAzYTRhMjMyNjEwZjNkZWM5NTg2N2Y3ZmIwNQ"
+                alt>
+            </div>
+            <div class="col-6 card">
+              <img
+                src="https://www.luluhypermarket.in/medias/Grocery-Layout-73.jpg?context=bWFzdGVyfHJvb3R8OTk2OTV8aW1hZ2UvanBlZ3xhREJrTDJneU1pODVOVGc0TkRZMU56WXlNek0wTDBkeWIyTmxjbmtnVEdGNWIzVjBYeTAzTXk1cWNHY3w0ZDViNzVkODBmMjVkYTgzZWNiY2E5MDc4N2NmNDllMjYxNjAyMzc5OTNlNzg4YjNiNWJiYWNkYmVlYWVmZDMy"
+                alt>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card mt-5">
+              <img
+                src="https://www.luluhypermarket.in/medias/Grocery-Layout-47.jpg?context=bWFzdGVyfGltYWdlc3w0ODA5MHxpbWFnZS9qcGVnfGFHVmtMMmcyWkM4NU5ETTRNVGcxT1RFME16azRMMGR5YjJObGNua2dUR0Y1YjNWMExUUTNMbXB3Wnd8M2E4OGEyOWE2ZGYzYzhhNjc2NDQyYmEzNDc0Y2E2NDUzZWJjZjZhZDY1NjQ0MTExNzE5YzE5Mjg5MWU0NDlkOQ"
+                alt>
+              <div class="card-body p-3 text-center">
+                <p>Detergent & Fabric care</p>
+              </div>
+            </div>
+            <div class="col-3 card mt-5">
+              <img
+                src="https://www.luluhypermarket.in/medias/Grocery-Layout-48.jpg?context=bWFzdGVyfGltYWdlc3w0ODU0OHxpbWFnZS9qcGVnfGFEVTRMMmhpT1M4NU5ETTRNVGcyTURRMU5EY3dMMGR5YjJObGNua2dUR0Y1YjNWMExUUTRMbXB3Wnd8YTE1MDk3NWE5Yjk5OGE5MzMwODQyNTFjOTEzNTA4Y2RkN2VhZTE5MGY2NjllNjEyNGI4ZDFkMjgyZDAwYTQ1YQ"
+                alt>
+              <div class="card-body p-3 text-center">
+                <p>Cleaners & Disinfectants</p>
+              </div>
+            </div>
+            <div class="col-3 card mt-5">
+              <img
+                src="https://www.luluhypermarket.in/medias/Grocery-Layout-49.jpg?context=bWFzdGVyfGltYWdlc3w0MTI5N3xpbWFnZS9qcGVnfGFERTNMMmhpWkM4NU5ETTRNVGcyTVRjMk5UUXlMMGR5YjJObGNua2dUR0Y1YjNWMExUUTVMbXB3Wnd8MTA2MzI1MWNjMTU2OTg1ZjNhMzE3ZTFkZGViODRmOTBlYmU3NTk5OGFkYjhiNDU2ZmY2Njg4Zjc0Mjk1YzhhZA"
+                alt>
+              <div class="card-body p-3 text-center">
+                <p>Air Freshners</p>
+              </div>
+            </div>
+            <div class="col-3 card mt-5">
+              <img
+                src="https://www.luluhypermarket.in/medias/Grocery-Layout-50.jpg?context=bWFzdGVyfGltYWdlc3w1NzU2OXxpbWFnZS9qcGVnfGFESTJMMmhqTXk4NU5ETTRNVGcyTXpBM05qRTBMMGR5YjJObGNua2dUR0Y1YjNWMExUVXdMbXB3Wnd8NWFiOTNmMmUxNTAxOGViMmE2NTU1NGVjNDQ2MzhiZjcwY2Y2MTg4NjZiMzBjNjA1YTFmN2JlNDRjNjc3YmIyOA"
+                alt>
+              <div class="card-body p-3 text-center">
+                <p>Kitchen Wipes & Scrubs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid p-5 mt-4"
+          style="background-color: rgba(80, 80, 80, 0.158);">
+          <b style="font-size: larger;">FABRIC CARE</b> <br> <br><br>
+          <b style="font-size: larger;">FACIAL & SKINCARE</b>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 card mt-4">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-44-100.jpg?context=bWFzdGVyfHJvb3R8NzA0Nzl8aW1hZ2UvanBlZ3xhRGRpTDJneFpTODVORE00TXpFM09EY3hNVE0wTDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTkRRdE1UQXdMbXB3Wnd8YTNhMWU0NjM3ZTI5YmE5MmEyMzliYTEzOGQxNzM2ZmIyOWEwZmQzODBjMjVlYzBkZjc0OTEzNjBiZmU0NDZjNw"
+                alt>
+            </div>
+            <div class="col-6 card mt-4">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-45-100.jpg?context=bWFzdGVyfHJvb3R8NjMwMjh8aW1hZ2UvanBlZ3xhRGRrTDJneFlpODVORE00TXpFM09UTTJOamN3TDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTkRVdE1UQXdMbXB3Wnd8M2IwMDFlNmQ3YTFkZTIyODRmNTgxODliYzI3ZjMzNGQ0Zjc5N2FmMGI3NDU1ZjQ3NjNmNmViYzk0YTQzNWQwOA"
+                alt>
+            </div>
+            <div class="col-6 card mt-4">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-77-100.jpg?context=bWFzdGVyfHJvb3R8Njc3Mjd8aW1hZ2UvanBlZ3xhR1JoTDJnMFpTODVORE00TXpFNE9UZzFNalEyTDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTnpjdE1UQXdMbXB3Wnd8ZTI2N2E5NDdlOTQxYmFkMjkyY2YxYTVkZmY3Zjg0N2U1OWIwODNhMmQzYWYwN2Y2ZmU3NzE5MmFkYWM5OTVhZg"
+                alt>
+            </div>
+            <div class="col-6 card mt-4">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-47-100.jpg?context=bWFzdGVyfHJvb3R8ODAwNjF8aW1hZ2UvanBlZ3xhRGsyTDJnNU9TODVORE00TXpFNU1EVXdOemd5TDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTkRjdE1UQXdMbXB3Wnd8MjVhOWUyMDgyNzczZGIyZGFmNzg3OGQzMTA0Y2ZlOGZiYWY2Njg3ZTU2ZWEyMjk3NTU5NjY5OTAzOTBlNWVhNQ"
+                alt>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid mt-4">
+          <img class="img-fluid"
+            src="https://www.luluhypermarket.in/medias/Artboard-17-copy-7-100.jpg?context=bWFzdGVyfHJvb3R8MTc3NzU4fGltYWdlL2pwZWd8YURobEwyZ3lZeTg1TkRNNE16STFOVGN4TmpFMEwwRnlkR0p2WVhKa0lERTNJR052Y0hrZ055MHhNREF1YW5CbnxmMWM1NjExZGUzMWJiOGEwNTIwNjI1ZDMzNWJkNjQwMjRlZTEzZTZmODc0NTZkY2IzYWNmMmRhY2EzNmU3MDAy"
+            alt>
+        </div>
+        <div class="container-fluid p-5 mt-4"
+          style="background-color:rgba(80, 80, 80, 0.158);">
+          <b style="font-size: larger;">Deos</b> <br>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 card mt-4">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-76-100.jpg?context=bWFzdGVyfHJvb3R8ODczNzd8aW1hZ2UvanBlZ3xhRFUyTDJnNVpDODVORE00TXpFNU1UZ3hPRFUwTDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTnpZdE1UQXdMbXB3Wnd8OGRhZTM0MGQxNjYzOTgwMGMzNjQ0MmYyMDhlZDg2ZWY3NGM1MmM3YzAwNzRhMDk2ZDkyYWM3ZmI5ZmViY2UxNA"
+                alt></div>
+            <div class="col-6 card mt-4">
+              <img
+                src="https://www.luluhypermarket.in/medias/Artboard-22-copy-47-100.jpg?context=bWFzdGVyfHJvb3R8ODAwNjF8aW1hZ2UvanBlZ3xhRFkxTDJoaE15ODVORE00TXpFNU16RXlPVEkyTDBGeWRHSnZZWEprSURJeUlHTnZjSGtnTkRjdE1UQXdMbXB3Wnd8ZDNmZDc1YTFjNDk5OTM4Mjg0NzZkOTMxOGZkMjllNGNmOTY5ZDczYzVmNmViMTAxMjYwYzcxYzRhMjM4ODgyZA"
+                alt></div>
+          </div>
+        </div>
+        <div class="container-fluid p-5 mt-4"
+          style="background-color:rgba(80, 80, 80, 0.158);">
+          <b style="font-size: larger;">Baby CARE</b> <br>
+        </div>
+        <div class="container-fluid mt-5 p-2 bg-success">
+          <div class="row  " style="list-style-type: none;">
+            <div class="col-sm-2 col-md-2 col-lg-2"> <b>GET IN TOUCH</b> <br>
+              <small>With our support channels</small>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2"><li><a class
+                  href="wa.me/919193099995"><img
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxATEBAQEhAQFRAQEA8QFRUQDRMSEBAQFhEWFhcRExMYHSggGBolGxUVITEhJSktLi4uFx8/ODMtNygtLisBCgoKDg0OGxAQGjAmICYrLS8uKzEtLTAvLS8uLS0tLSstNi0tLjUtLS8tLS0tLS4vKy0tLS0tKy0tLS8tLS0tLf/AABEIAOEA4AMBEQACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAABAIDBQYHAf/EAEEQAAIBAgEIBwQIBQMFAAAAAAABAgMRBAUGEiExQVGBEyIyYXGRoUJSscEHFCNicoLR8FOSssLhJGOiFTNDc6P/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAwQFBgEC/8QAMhEBAAIBAgMECgMBAAMBAAAAAAECAwQREiExBRNBUSIyYXGBkaGx0fAzweFCI0NSFP/aAAwDAQACEQMRAD8A7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApcgKXUQFDroCn6ygH1lAVKugK1VQFSkBUAAAAAAAAAAAAAAAAAAAAC3KokBadVvYmwCoye1peGsCtYaO+78X+gFaox91eQHuguC8gDguC8gKXQj7q5KwFDwsdza53+IFDozWxp+jA8VdrU00+8C/ComBWmB6AAAAAAAAAAAAAABTKQFiVRt2WtgVRw++Tv3bgLyQHoAAAAAAAADyUU9TV13gRp4ZrXF8n8mB5Tr67PU+8CTGYFQAAAAAAAAAAAAUTnYCzFOXdHjx8AL8IJKyAqApnNJNtpJa227JeLEzs8mYiN5YXHZ0UIaoXqS+7qj/M/lcrX1VK9Oalk1+KvKvNhMTnViJdlQgu5aUvN6vQrW1d56clK/aGWfV2hjq2VsRLbWqcpuK8o2Ipy3nrKvbUZbdbSjyxFR7ZzfjOT+Z8cU+aPjtPjPzexxNRbKk14VJL5jit5kZLx4z80mjljEx2Vqn5paf8AVc+4zZI8UldTmr0tP3+7JYXOysu3CE13dSXnrXoTV1d46xus07RyR60RP0ZzA5yYepZOThLhU1LlLYWaamlvYvYtdiv1nb3swmWFwAoq0lJa/PegIj0oOz2bmBKp1LgXAAAAAAAAAACic7AWYQ0tb7PxAkoABhcsZw06N4R69Xgn1Yv7z+XwK+XUVpyjnKnqNbTFyjnLT8oZSq1nepJtXuorVBeETPvltf1pY+XPfLPpT+EQ+EIAAHgAAAACfk3LFaj2ZXh7ktceXDkS481qdFjDqcmL1Z5eTc8kZbpV1ZdWpvhJ6/GL3o0cWeuT3tnBqqZuUcp8mTJll5KKas9jAhSi4P7r2Ph3MCVTncC4AAAAAAABTJgWEtJ9y2/oBJSAAajnDnJe9KhLVslUW/ug/n5cShn1P/NPmydXrv8AjHPx/H5atcpMsuAuAuAuAuAuAuAuAuAuB7CbTTTaad007NPimexOxEzE7w3LN3OLpLUqzSqbIy2Kp3PhL4mhg1HF6NurZ0mt4/Qv18/P/WyFtoqZxTTT2MCFG8JaL2bnxQE2EgKgAAAAAAR60ty2sC9ThZWAqA1LOzLmt4em+6pJP/5r5+XEo6nP/wAV+LJ12q/9dPj+Py1O5RZRcBcBcBcBcBcBcBcBcBcBcPS4C4G75rZc6VdDUf2sVqb/APJFf3L97zS0+fi9G3VtaLVd5HBbr92xFpoLWJpaUe9a14gWMLV3PagJaA9AAAAFFSQFrDxveXJASAMPnNlXoKXVf2tS8Y93GfL4tEGoy8FeXWVTWajuqcus9Py542ZTny4FdKnKUlGKblJ2SW1s9iJmdoe1rNp2jq2zB5mx0U6tWWk91OyUe67Tv6F6ujjb0pauPsyNvTtz9jzH5nxUJSpVJuaTajPRel3JpKzPL6OIjesmXs2IrM0md2o3KLJLgLgLgLgLgLgLgLgLgV0a0oyjOLtKLUk1uaPYmYneHtbTWd46ulZGyiq9GNRan2ZL3Zravn4M18WSL13dHp80ZaRb5pxInQcVHRmpLZLb4/v4ASqUroC4AAAAI2Ie5bXqAkRjZJcAPWwOZZeyi69ec79RdWH4FsfPW+ZkZsnHfdzepzd7km3h4MeRK5cDdcy8lqMPrEl153UL+zDZfxfwtxNDS4to45bXZ+DaveT1np7m0FxpAHOM6MD0WJmkurU+0jzeted/QytRTgvLntZi7vLPlPNibkCoXAXAXAXAXAXAXAXAXAzmaGUejrqDfUrWg+6fsv5cyzpsnDfbwle0GbgycM9J/YdBNNvLWJp6UWt+1eO4CPg6l0BNQAAB5ICPT1z8FfmBJAw+dmN6LCzs+tU+yX5tv/FMg1N+HHPtVNdl4MM7dZ5OcXMpzxcAtere9QOrreHpKEIQWyEYxXglY26xtGzqq1itYrHguHr6ANdz2wOnQVRLrUXf8j1S+T5FXV03pv5M/tHFxY+KPD7NCuZrDLgLgLgLgLgLgLgLgLgFLenrWvwYN3U8kYzpqFKrvlFX7pLVJeaZs478dIs6fBk7zHFkw+0rHpaNSS77rnrAnRYFQACio9QFvCrtPi7eQF8DSM/8TepSpe7B1H4ydl/S/Mz9ZbnFWN2nfe1afFqtymyy4FVOdpRfBp+TPY5S9idp3deTNt1j0ABFyrXhChVlPsKErr3rq2jzvbmfGSYiszKLNatcczbps5OjGcu9uAuAuAuAuAuAuAuAuAuBvGYOJvSq0/4c1Jfhmv1izQ0dt6zDa7MvvSa+U/dtJcaaDjVacHxTXk/8gSqT1AXAAFqs9QHmF7K5/EC8BzXO+tpYyr93QiuUE/i2ZWpnfJLnddbfPb4fZhrkCoXAXA6fmzjelwtKV+tFdHL8UdWvxVnzNbBfipEuk0eXvMMT8PkyhMsgHOc6MvfWJ6EG+gg9X+5L333cF+1l6jN3k7R0c/rNX31tq+rH19rBXK6kXAXAXAXAXAXAXAXAXAXA2bMCtbEVIbpUW+cZxt/Uy3o59OY9jR7MttlmPY300W4h5RWqL4S+TAvYd6gLwACziNgFWH7EfAC4ByvOKX+rxH/tkvLUY+b+Sfe5nVfzW97HXI1cuAuBsOZmVuirdFJ/Z1rLujU9l89nkWdLl4bbT0lf7P1Hd34Z6T93RDTb4BzLOfJLw9Z2X2VS8oPcuMOXwaMnPi7u3Lo5zWafucnLpPT8MPchVC4C4C4C4C4C4C4C4C4C4GfzHl/rI99Oovg/kWNJ/Ivdnfz/AAl0Y1HQIuUewvxICrDbAJAACzX2Ae4bsR8ALoHK85Y2xmIX+435pP5mRn/klzOrjbPb3sZciVy4C4C4HRsz8t9PT6Ob+2pLXfbOGxT8dz/yaemzccbT1hv6HU97Xht60fX2thLK+h5WydDEUpUp79aa2wktkkfGTHF67Shz4a5qcNnLco4GpQqSpVFaS37pR3Si96Mi9JpO0uby4rYrcNka58oy4C4C4C4C4C4C4C4C4Gw5iRvi/ClUfrFfMs6T+T4L/Zsf+f4T/Toxpt9Eyl2F+JfMCvDbAJAAC1WWoDzCPq+Da9b/ADAvAc1z5o6OMk/4kKc/TR/sMvVRtkc92jXbPPtiJ/r+mAuVlIuAuAuBfwWMnSqRqwdpwd1wfFPuZ9VvNZ3h948lsdotXrDqeRcqwxFJVIanslG+uEt6fyZr4skZK7w6TT565qcUfH2J5InY/LWSKWJhoTVpK7jNdqD7uK7iPLirkjaUGo09M1drfCXNcsZHrYeWjUj1W+rOPYnz3PuZl5MVsc83PZ9PfDO1vmgESEA2TNLN1V71aqfQq6STadSW/Wty+Pgy1p8HH6VujQ0Wj730r+r92WynmPB3dCbi/dqNyg/CW1epNk0cT6srObsys88c7eyf38tQyjk2tQdqtOUeD2wl4SWplO+O1PWhl5cN8U7XjZEI0QAAAbd9HVC9SvU92EYfzSu/6EXdHHOZanZdfTtb2bfvyb2aDaQspPsL7zfkv8gX8OtQF4ABRUWoCzhXrkvBgSQNM+kbCdWjWXsuVOXg1ePwfmUdZXlFmT2pj5Vv8Gj3KDGLgLgLnoXAnZHyrUw9RVIeEot9WceD+T3H3jyTjneE2DPbDfir8vN1DJWU6WIpqpTerY0+1CXuyXE1seSt43h0mHNTNXiqmn2lW69GM4uE4xlGWpqSTT5HkxExtL5tWLRtaN4ajlbMeLvLDz0X7lRtx/LLaudynk0cTzpLLz9mRPPFO3slicl5o4idZRrQcKUXeUtKL0l7sLPa+O70IaaW822tG0KuHs/La+142j96OiUKMYRjCCSjFKKS2JLcaURERtDerWKxtHRcPX0oq0oyi4yipRepqSTTXemeTETyl5asWjaWo5w5oUlCpWotwcIym4bYSSV2o74v0KebS12m1WXquz6cM3x8tvDwaLcz2KXAXA6RmHhNDC6bWutOU/yrqr4N8zU0ldse/m3+zcfDh3853bGWWgx+Ld6qXur1f7QEyktQFwAB4wIt7TT46vP9oCWBAy7gOnw9Wl7Uo3j3TWuPqkR5acdJqg1OLvcU0/d3IXdamrNamntT4GM5cuAuAuAuAuBLyXlOrh6iqU5Wexp64zXuyW9H3jyWpO8JMOa+K3FR0nIOcVHEpJPRq2105PX3uL9pftmpiz1ye/ydBptZTNG3SfJmSZbAAAAAAxedGIVPB4iXGm4L8U+qvVkWe22OZVtZfgwWn2ffk5Ncx3MlwL2Dw8qtSFKPaqSUV3X38tvI+q1m0xEPqlJvaKx4uxYWhGnCFOPZhGMF4JWRtViIjaHV0rFKxWOkLp6+mMw70pSlxd+W4DJRQHoAABGxUNQF2hU0op79/iBcA5rn1knoq/TRX2ddt90avtLn2vPgZmqx8NuKOkuf7Rwd3k446T9/3n82tXKrPLgLgLgLgLgexm0002mndNOzT4p7gRO3OG1ZHz3q07Rrx6WHvKyqrx3S9H3lvHq7RytzaeDtK9OWTnH1/wBbjkzL+Fr2VOrHS9yXVn/K9vK5dpmpfpLVxarFl9Wefl4smSrAAApqTUU5SaUUrtt2SXFsTOzyZiI3lzjPHONYhqjSf2MJXctnST2XX3Vr8fIzNTn4/Rr0YGu1kZZ4KerH1/xrNyqzy4G6/R7km7lipLUrwp347JTX9P8AMXtJj/7n4NfszB1yz7o/uf6+bei+2UXKFS0Lb5dXlvApwlOyAmAAAACiogI2Hlabjulr8GgJgGGzwjTeCruorqMbx4qpdKDT/E15sh1G3dzuqa6K9xbi/Z8Pq5PcyHMlwFwFwFwFwFwFwAGTwGcWLo2UK09FezPrxtw62zlYlpnyV6Ss49Xmx+rb582dw+f9ZLr0Kcu+M5Q9HcsRrLeMLle1bx61Yn6flXV+kGp7OHgnxlVcvRJCdbPhD2e1reFPr/jXcrZdxGI/7tTq7VCK0aa5b+dyvkzXv1lRzarLm9eeXl4MdciVy4GQyDkqeJrRpR1R2zl7kN78dyJMWOcltoWNPgtmvwx8fZDrmGoRpwjTgrQhFRSW5I2KxERtDp6VilYrHSF09fTGSl0lS/srUv1An042AuAAAACmbAsYZdaT4av36ASQNP8ApJxmjRpUU9dSppP8MF+so+RT1ltqxVldq5NscU85+37DnlzOYZcBcAAAAAAAAAAALgLgScnYGpXqRpUo3nLyit8pPckfVKTedofePHbJbhpHN1jIGR6eFpKnHXJ65ztZzlx7lwRrYsUY67Q6bTaeuCnDHxnzZIlWELH1/YW2W3uj/kCrC0bICUgPQAAABarPUAwser46wLoHLs/8Zp4yUFsowhT/ADNabf8AyS5GXqrb5NvJznaWTiz7eUbf21u5WUC4HlwPbgLgLgLgLgLgLgLgLgLgZLImRK2Kno042in1qkl1Ic977kS48Vsk8ljT6a+edq/PwdRyHkWlhaehTV5O2nN9qb7+C4I1MWKuONodFp9NTBXavxnzZIkWFjFYhQXGT2L5+AETDUW3pPW3rYGQjECoAAAAAIuJe7jqAkpbuAHlSainJuyim2+CS1iZ2eTO0by4/wD9OxeKq1KsKFWXSznO7jox60r20pWXqY/BfJMzEdXL91mz2m1azznf93ZnBZg4mWupUp01wV6kvJWXqTV0d56zstY+y8s+tMR9WfwWYeEhrqOpVf3p6MfKNn5ssV0lI6813H2Xhr628/vsZeWb+EdN0vq9JQe20EnfjpLXfvuTdzTbbZanS4eHg4Y2adlrMOpG8sNLTj7k2lUXcpbJc7cynk0kxzoys/Zdq88U7+zxajicPOnLQqQlCXCcXF+pTms1naWZatqTtaNpWzx8gAAAAASMDgK1aWjSpzm/urUvxS2Lmz6rS1uVYSY8d8k7UjdumRMwtk8VK+/o6b1eE5/JeZdx6Pxv8mrg7L8cs/CP7lu2HoQhFQhGMYRVlGKSSXci7EREbQ161isbVjaFw9fSxisSoLjJ7F833AQ6NJyelLW3+7IDIU4WArAAAAADxgRo65ruuwJQAAAAAAAFnFYSnUjo1KcJx4TgpL1PLVi3KYfF6VvG1o3hr2NzGwc7uCqU39yd4+Ur+hXtpMc9OSjk7Mw26bx7v9YfEfR3L2MTFrhOk0/NP5EM6KfCVa3ZM/8AN/p/qHLMDF7qmGa76lRf2Hx/+PJ5x+/BDPZWbwmPnP4e0/o/xXtVMOl3TqS/sQjR38Zh7HZWbxmPr+E7D/R3/ExPKnSs/Nv5EkaLzlNXsn/6v8oZrBZlYKnZuEqjX8Wd1/KrRfNE1dLjjw3WsfZ2CvWN/f8AuzP0aUYpRjGMYrYoxSS8EieIiOUL1axWNohWevQCFXxvsw1vjuXhxAt0MO27vW3vYE6ELAVgAAAAAAoqPUBawq7T77eQEgABRUqxjtkl4sCPPKENylLwVl6gWZYuo9kUvVgeU69WL19ZcGreTQEqni4PfZ8JavUCQAAAAAAAB42BGq46K1R6z7tnmBGlpz2uy4LZz4gSKOGSAkxiBUAAAAAAABbq7ALarRiktbfcgLEsbN9mKXi7+gFtqrLbJ8tXwAqhgkBIhhkBdVJAHTQFmphkwLHQyj2ZNc9XkBUsRVW1J8rMCpY574PlK4Hv1+Puz8l+oB5QXuz9P1ApeOe6n5y/wBQ69V8F4LX6gU/VpS7Tb8WBIp4ZICRGmBWAAAAAAAAAAeNAW5UkAVJAVqAHtgPQAAAB40BS4ICl0UBT0CAdAgKlRQFSpoCpRA9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/9k="
+                    alt
+                    style="height: 50px; border-radius: 50%;">Whatsapp</a><br></li>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2"> <li><a
+                  href="https://t.me/vishnusakthii"><img
+                    src="data:image/jpeg;base64,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"
+                    alt style="height: 50px; border-radius: 50%;">
+                  Telegram</a><br>
+                <p></p></li>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2"><a
+                href="https://instagram.com/vishnu_shopping?igshid=YmMyMTA2M2Y="><img
+                  src="../DCIM/images/insta.jpeg" alt height="50px"
+                  style="border-radius: 20px;">Instagram</a><br></div>
+            <div class="col-2"> <li> <a
+                  href="mailtovishnushoppingcenter@gmail.com"><img
+                    src="data:image/jpeg;base64,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" style="height: 50px; border-radius: 50%;"
+                    alt>G-Mail</a><br>
+                <p></p></li>
+            </div>
+          </div>
+        </div>
+        <footer class="d-flex flex-wrap p-5 ">
+          <div class="p-5">
+            <img src="../vishnu shopping.jpeg" alt height="100px"> <br> <br>
+            <h5>SOCIAL MEDIA CONNECT</h5>
+          </div>
+          <div
+            class="d-block ms-auto p-5 row-cols-1 row-cols-sm-6 row-cols-lg-3"
+            style="list-style-type: none; width: 300px;">
+            <li> <b>Know Us</b></li>
+            <li>About Us</li>
+            <li>Feedback</li>
+            <li>FAQs</li>
+            <li>News & Events</li>
+            <li>Site Map</li>
+          </div>
+          <div
+            class="d-block mx-auto p-5 row-cols-1 row-cols-sm-6 row-cols-lg-3"
+            style="list-style-type: none; width: 300px;">
+            <li> <b>Policies</b></li>
+            <li>Terms & Conditions</li>
+            <li>Return Policy</li>
+            <li>Website Accessibility</li>
+            <li>Privacy Policy</li>
+            <li>Service and Warranty</li>
+          </div>
+          <div
+            class="d-block me-auto p-5 row-cols-1 row-cols-sm-6  row-cols-md-4 row-cols-lg-3 "
+            style="list-style-type: none; width: 440px;">
+            <li> <b>CONTACT</b></li>
+            <li>Contact us</li>
+            <li>Grocery Store Locations</li>
+            <br>
+            <h5>SUBSCRIBE US</h5>
+            <input type="email" name id placeholder="Enter Email ID">
+
+          </div>
+
+        </footer>
+        <div class="spinner-grow text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-bg-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <nav aria-label="Page navigation example" style="float: right;">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </body>
+    </html>
